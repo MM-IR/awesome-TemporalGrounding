@@ -30,7 +30,7 @@ n step（其实就是word-level weighted sum）。
 #### 2.2. Relation modeling between semantic phrases（global context modeling）
 Nonlocal就是针对每个block进行一个context表达。然后就是softmax。
 
-#### 重点就是关于attention主导的queryloss
+#### 重点就是关于attention主导的queryloss(Frobenius本质就是矩阵元素平方和)
 ![](Attnloss.png)
 
 这里就是Frobenius norm of a matrix.A LxN就是concatenated query attention weights across N steps。
