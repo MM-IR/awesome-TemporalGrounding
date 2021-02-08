@@ -88,4 +88,8 @@ implicit spatial subgraph和explicit，以及对应的temporal dynamic subgraph�
  
 这里就是简单的堆叠啊就行。
 
+## 3.Reasoning Step-by-Step: Temporal Sentence Localization in Videos via Deep Rectification-Modulation Network
+### 3.1. Motivation@deep rectification-modulation network（RWN）
+之前的那种single attention不足够去捕捉复杂的video contents以及restrict the higher-level reasoning demand。
 
+不同于
